@@ -1,0 +1,136 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size:10px;
+}
+
+header {
+	position:fixed;
+	width: 100%;
+	left: 0;
+	top:0;
+	height: 123px;
+	background: yellow;
+	z-index: 1;
+}
+.logo {
+	text-decoration: none;
+	float: left;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #6e6d6b;
+	font-size:3.7rem;
+	display: inline-block;
+}
+.header_nav{
+	float:right;
+}
+
+.header_nav a{
+	text-decoration: none;
+	display:inline-block;
+	font-size:2.2rem;
+	padding:0 20px;
+	font-family: 'calibri';
+	color: #6e6d6b;
+}
+
+.icon {
+	width: 50px;
+	height: 47px;
+	background: url(Navigation.PNG);
+	margin:10px 0;
+}
+
+.icon:hover {
+	background: green;
+}
+
+.home{
+	background-position: 0px 0px;
+}
+
+.about{
+	background-position: -53px 0px;
+}
+
+.work {
+	background-position: -100px 0px;
+}
+
+.blog{
+	background-position: -150px 0px;
+}
+
+.contact {
+	background-position: -200px 0px;
+}
+
+.promo {
+	box-sizing: border-box;
+	margin-top: 123px;
+	width: 100%;
+	border-top:2px solid orange;
+	border-bottom:2px solid orange;
+	height: 400px;
+	background: url(../images/big-orange-bg.png);
+}
+.promo img{
+	width:100%;
+	height: 100%;
+}
+.cent {
+	text-align: center;
+}
+.promo span{
+	display: inline-block;
+	text-transform:uppercase;
+	float:left;
+	font-size: 3.7rem;
+	position: relative;
+	top:130px;
+}
+
+.promo span:nth-child(1){
+background: #4c4f4f;
+color: #ffc759;
+
+}
+
+.promo span:nth-child(2){
+clear: left;
+margin-top: 28px;
+background: #ffc759;
+color:#4c4f4f;
+}
+
+
+main {
+padding-top: 127px;
+padding-bottom: 73px;
+}
+
+footer {
+  background: orange;
+  height: 73px;
+  margin-top: -73px;
+  text-align: center;
+}
+
+.content {
+  height: auto;
+  min-height: 100%;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
